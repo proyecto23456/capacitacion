@@ -1,1 +1,104 @@
-# capacitacion
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsabilidad en el Soporte Técnico</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 0; 
+      padding: 0; 
+      background: #f0f2f5;
+    }
+    .container { 
+      max-width: 1000px; 
+      margin: 40px auto; 
+      background: #fff; 
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    header { 
+      border-bottom: 4px solid #000; 
+      padding: 10px 20px; 
+      background: #fff;
+    }
+    .category { 
+      background: #000; 
+      color: #fff; 
+      display: inline-block; 
+      padding: 5px 10px; 
+      font-size: 12px; 
+      text-transform: uppercase; 
+    }
+    h1 { margin: 10px 0; font-size: 32px; }
+    .meta { color: #555; font-size: 14px; margin-bottom: 20px; }
+    main { display: flex; padding: 20px; }
+    .content { flex: 3; padding-right: 20px; }
+    .content h2 { font-size: 24px; margin-top: 30px; }
+    .content p { line-height: 1.6; margin: 15px 0; }
+    .content ul { margin: 15px 0 15px 20px; }
+    .content blockquote { font-style: italic; margin: 20px 0; color: #333; border-left: 4px solid #ddd; padding-left: 10px; }
+    aside { 
+      flex: 1; 
+      background: #e0e4ea; 
+      padding: 20px; 
+      border-left: 1px solid #ccc; 
+      border-radius: 4px;
+    }
+    .author-box img { width: 100%; border-radius: 50%; }
+    .author-box h3 { margin: 100px 0 5px; font-size: 18px; }
+    .author-box p { font-size: 14px; color: #555; margin: 0; }
+    .subscribe, .links { margin-top: 30px; }
+    .subscribe h4, .links h4 { margin-bottom: 10px; font-size: 16px; color: #000; }
+    .subscribe-icons img { width: 24px; margin-right: 8px; vertical-align: middle; }
+    .links ul { list-style: none; padding: 0; }
+    .links li { margin-bottom: 5px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="category">Responsabilidad Laboral</span>
+      <h1>Responsabilidad en el Soporte Técnico: Clave para un Servicio de Calidad</h1>
+      <div class="meta">Por <strong>Fredy antonio cardona Santos</strong> &middot; 5 de julio de 2025</div>
+    </header>
+    <main>
+      <section class="content">
+        <p>La responsabilidad en el área de soporte técnico es fundamental para generar confianza en los usuarios y garantizar la continuidad operativa de los sistemas. Al asumir con compromiso cada incidencia, no sólo resolvemos problemas, sino que también construimos relaciones duraderas con nuestros clientes internos y externos.</p>
+        <h2>Cinco Estrategias para Ejercer la Responsabilidad</h2>
+        <ul>
+          <li><strong>Respuesta y seguimiento oportuno:</strong> Atiende cada solicitud de soporte en el plazo establecido y actualiza el estado en el sistema de tickets.</li>
+          <li><strong>Comunicación clara y honesta:</strong> Explica al usuario el diagnóstico, los pasos a seguir y sé transparente sobre posibles demoras.</li>
+          <li><strong>Documentación detallada:</strong> Registra el problema, la solución aplicada y recomendaciones en la base de conocimiento para futuros casos.</li>
+          <li><strong>Proactividad y prevención:</strong> Monitorea sistemas críticos y propone mejoras o actualizaciones que eviten incidencias recurrentes.</li>
+          <li><strong>Aprendizaje continuo:</strong> Mantente al día con nuevas tecnologías, parches de seguridad y buenas prácticas, compartiendo conocimientos con tu equipo.</li>
+        </ul>
+        <blockquote>“La responsabilidad no es una carga, es la base de la confianza.”</blockquote>
+        <p>Ejercer la responsabilidad en soporte técnico va más allá de resolver incidencias: se trata de anticiparse, comunicar con claridad y dejar un registro valioso que permita al equipo ofrecer siempre un servicio profesional y confiable.</p>
+      </section>
+      <aside>
+        <div class="author-box">
+          <img src="https://www.capa.mgp.gt/mega/pluginfile.php/91498/user/icon/lambda2/f1?rev=5734878" alt="Foto de Fredy Santos">
+          <h3>Fredy Santos</h3>
+          <p>Técnico de Soporte</p>
+        </div>
+        <div class="subscribe">
+          <h4>SUSCRÍBASE AL BLOG</h4>
+          <div class="subscribe-icons">
+            <img src="https://static.vecteezy.com/system/resources/previews/012/871/452/non_2x/gmail-icon-google-product-illustration-free-png.png" alt="Email">
+            <img src="https://mir-s3-cdn-cf.behance.net/projects/404/c03d89118768707.Y3JvcCwxMzgwLDEwODAsMjcwLDA.png" alt="RSS">
+            <img src="https://blog.iese.edu/files/2023/10/twiter-43x42-1.png" alt="Twitter">
+          </div>
+        </div>
+        <div class="links">
+          <h4>Enlaces</h4>
+          <ul>
+            <li><a href="#">Guía de Buenas Prácticas ITIL</a></li>
+            <li><a href="#">Base de Conocimiento Interna</a></li>
+          </ul>
+        </div>
+      </aside>
+    </main>
+  </div>
+</body>
+</html>
